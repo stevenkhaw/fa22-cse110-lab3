@@ -11,6 +11,18 @@ legend {
     background-color: lightgray;
 }
 
+.large_header {
+    font-size: 1cm;
+}
+
+.date_header {
+    font-size: 20pt;
+}
+
+.minor_header {
+    font-size: 5mm;
+}
+
 .title {
     font-size: 1.5vw;
 }
