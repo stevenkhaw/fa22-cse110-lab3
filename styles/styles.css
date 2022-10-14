@@ -3,5 +3,13 @@ header {
 }
 
 legend {
-    color: magenta;
+    color: red;
+}
+
+.box {
+    background-color: lightgray;
+}
+
+body {
+    background-color: gray;
 }
