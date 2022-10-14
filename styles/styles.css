@@ -4,10 +4,19 @@ header {
 
 legend {
     color: red;
+    font-size: 1.5em;
 }
 
 .box {
     background-color: lightgray;
+}
+
+.title {
+    font-size: 1.5vw;
+}
+
+.minor_title {
+    font-size: 1.25vw;
 }
 
 body {
