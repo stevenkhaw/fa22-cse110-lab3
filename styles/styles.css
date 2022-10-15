@@ -1,26 +1,43 @@
+global {
+
+}
+
 header {
     color: midnightblue;
+    padding-top: 10pt;
+    margin: auto;
 }
 
 legend {
-    color: red;
+    color: midnightblue;
     font-size: 1.5em;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    border-radius: 10vw;
+    background-color: whitesmoke;
+    margin: 1pt 1pt 1pt 1pt;
 }
 
 .box {
-    background-color: lightgray;
+    background-color: whitesmoke;
 }
 
 .large_header {
     font-size: 1cm;
+    padding-bottom: 1pt;
+    margin-bottom: 1pt;
 }
 
 .date_header {
     font-size: 20pt;
+    padding-top: 1pt;
+    margin-top: 1pt;
 }
 
 .minor_header {
     font-size: 5mm;
+    padding: 1mm 1mm 1mm 1mm
 }
 
 .title {
@@ -31,6 +48,16 @@ legend {
     font-size: 1.25vw;
 }
 
+.check {
+    padding-right: 2mm;
+    margin-left: 10pt;
+}
+
+.check_label {
+    padding-left: 2mm;
+    margin-right: 10pt;
+}
+
 body {
-    background-color: gray;
+    background-color: lightskyblue;
 }
