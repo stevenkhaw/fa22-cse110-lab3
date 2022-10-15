@@ -6,6 +6,7 @@ header {
     color: midnightblue;
     padding-top: 10pt;
     margin: auto;
+    text-align: center;
 }
 
 legend {
@@ -27,6 +28,7 @@ legend {
     font-size: 1cm;
     padding-bottom: 1pt;
     margin-bottom: 1pt;
+    text-decoration: underline;
 }
 
 .date_header {
