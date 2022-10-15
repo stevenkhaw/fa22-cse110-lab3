@@ -18,6 +18,7 @@ legend {
     border-radius: 10vw;
     background-color: whitesmoke;
     margin: 1pt 1pt 1pt 1pt;
+    display: block;
 }
 
 .box {
@@ -47,7 +48,7 @@ legend {
 }
 
 .minor_title {
-    font-size: 1.25vw;
+    font-size: 1.75vw;
 }
 
 .check {
@@ -62,4 +63,9 @@ legend {
 
 body {
     background-color: lightskyblue;
+}
+
+label {
+    font-size: 1.5vw;
+    display: inline;
 }
