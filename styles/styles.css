@@ -26,7 +26,7 @@ legend {
     top: 10px;
     margin: 1pt 1pt 1pt 1pt;
     display: block;
-    height: 10pt;
+    height: 3ex;
 }
 
 .name_text {
@@ -176,7 +176,7 @@ div + textarea {
     font-size: 14pt;
 }
 
-legend ~ label {
+form > fieldset > legend ~ label {
     font-size: 14pt;
 }
 
