@@ -7,6 +7,12 @@ header {
     padding-top: 10pt;
     margin: auto;
     text-align: center;
+    position: relative;
+    top: 5px;
+}
+
+main {
+    text-align: center;
 }
 
 legend {
@@ -17,13 +23,43 @@ legend {
     border-width: 2px;
     border-radius: 10vw;
     background-color: whitesmoke;
+    text-align: center;
+    position: relative;
+    top: 10px;
     margin: 1pt 1pt 1pt 1pt;
     display: block;
     height: 3ex;
 }
 
+.name_text {
+    color: red;
+    position: sticky;
+    top: 10px;
+}
+
 .box {
     background-color: whitesmoke;
+    border-radius: 10vw;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxes {
+    display: flex;
+}
+
+.special_box {
+    background-color: whitesmoke;
+    border-radius: 10vw;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 10vw;
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .large_header {
@@ -53,13 +89,12 @@ legend {
 }
 
 .check {
-    padding-right: 2mm;
-    margin-left: 10pt;
+    margin-left: 10pt; 
 }
 
 .check_label {
-    padding-left: 2mm;
     margin-right: 10pt;
+    font-size: 2vh;
 }
 
 iu_video  {
