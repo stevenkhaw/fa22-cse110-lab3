@@ -12,7 +12,6 @@ header {
 }
 
 main {
-    text-align: center;
 }
 
 legend {
@@ -46,8 +45,33 @@ legend {
     margin-right: auto;
 }
 
-.boxes {
+.flex-boxes {
     display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.media_box {
+    background-color: whitesmoke;
+    border-radius: 10vw;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.diagram {
+    grid-column-start: 1;
+}
+
+.baby_benji {
+    grid-column-start: 2;
+}
+
+.pooping_benji {
+    grid-column-start: 3;
 }
 
 .special_box {
@@ -55,7 +79,6 @@ legend {
     border-radius: 10vw;
     padding-top: 30px;
     padding-bottom: 30px;
-    text-align: center;
     width: 10vw;
     position: static;
     margin-left: auto;
@@ -118,6 +141,17 @@ legend {
 .no_button:active  {
     color:white;
     background-color: red;
+}
+
+.grid-form {
+    display: grid;
+    row-gap: 10px;
+    align-items: center;
+    place-items: center;
+}
+
+section {
+    text-align: center;
 }
 
 iu_video  {
