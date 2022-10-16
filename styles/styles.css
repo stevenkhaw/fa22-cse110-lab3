@@ -1,3 +1,4 @@
+/* Encloses Main Title, Date, Name, Team*/
 header {
     color: midnightblue;
     padding-top: 10pt;
@@ -7,6 +8,7 @@ header {
     top: 5px;
 }
 
+/* Encloses all oval-shaped legends for individual field boxes*/
 legend {
     color: midnightblue;
     font-size: 1.5em;
@@ -143,10 +145,12 @@ legend {
     place-items: center;
 }
 
+/* Center all elements in section*/
 section {
     text-align: center;
 }
 
+/* IU video dimensions */
 iu_video  {
     height: 400;
     width: 700;
@@ -154,15 +158,18 @@ iu_video  {
     max-width: 1400;
 }
 
+/* Changes color of whole website background*/
 body {
     background-color: lightskyblue;
 }
 
+/* Sets default label font and display*/
 label {
     font-size: 1.5vw;
     display: inline;
 }
 
+/* Changes colors based on window width*/
 @media screen and (max-width: 1500px) {
     body {
         background-color: midnightblue;
