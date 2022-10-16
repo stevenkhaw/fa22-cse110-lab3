@@ -169,3 +169,47 @@ label {
     font-size: 1.5vw;
     display: inline;
 }
+
+@media screen and (max-width: 1500px) {
+    body {
+        background-color: midnightblue;
+    }
+
+    header {
+        color: lightskyblue;
+        padding-top: 10pt;
+        margin: auto;
+        text-align: center;
+        position: relative;
+        top: 5px;
+    }
+
+    legend {
+        color: midnightblue;
+        font-size: 1.5em;
+        border-style: solid;
+        border-color: gray;
+        border-width: 2px;
+        border-radius: 10vw;
+        background-color: whitesmoke;
+        text-align: center;
+        position: relative;
+        top: 10px;
+        margin: 1pt 1pt 1pt 1pt;
+        display: block;
+        height: 3ex;
+    }
+
+    .minor_title {
+        font-size: 1.75vw; 
+        color: white;
+    }
+
+    p {
+        color: white;
+    }
+
+    .date_text {
+        color: white;
+    }
+}
