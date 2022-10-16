@@ -97,6 +97,29 @@ legend {
     font-size: 2vh;
 }
 
+.yes_button {
+    border-radius: 10vw;
+}
+
+.yes_button:hover {
+    color:blue;
+    background-color: cyan;
+}
+
+.no_button {
+    border-radius: 10vw;
+}
+
+.no_button:hover {
+    color:white;
+    background-color: red;
+}
+
+.no_button:active  {
+    color:white;
+    background-color: red;
+}
+
 iu_video  {
     height: 400;
     width: 700;
