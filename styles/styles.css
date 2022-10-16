@@ -1,3 +1,7 @@
+* {
+    font-family: "Roboto Condensed", "Roboto Slab", "Roboto", sans-serif;
+} 
+
 /* Encloses Main Title, Date, Name, Team*/
 header {
     color: midnightblue;
@@ -22,7 +26,7 @@ legend {
     top: 10px;
     margin: 1pt 1pt 1pt 1pt;
     display: block;
-    height: 3ex;
+    height: 10pt;
 }
 
 .name_text {
@@ -128,12 +132,8 @@ legend {
     border-radius: 10vw;
 }
 
-.no_button:hover {
-    color:white;
-    background-color: red;
-}
-
-.no_button:active  {
+.no_button:hover,
+.no_button:active {
     color:white;
     background-color: red;
 }
@@ -145,15 +145,18 @@ legend {
     place-items: center;
 }
 
+#name-select {
+    font-size: 12pt;
+}
+
 /* Center all elements in section*/
 section {
     text-align: center;
 }
 
 /* IU video dimensions */
-iu_video  {
-    height: 400;
-    width: 700;
+video[name="IU_video"]  {
+    width: 90%;
     max-height: 800;
     max-width: 1400;
 }
@@ -167,6 +170,26 @@ body {
 label {
     font-size: 1.5vw;
     display: inline;
+}
+
+div + textarea {
+    font-size: 14pt;
+}
+
+legend ~ label {
+    font-size: 14pt;
+}
+
+footer a {
+    font-size: 14pt;
+}
+
+section > form > fieldset > button {
+    font-size: 14pt;
+}
+
+#span.date_text {
+    font-size: 14pt;
 }
 
 /* Changes colors based on window width*/
@@ -209,7 +232,8 @@ label {
         color: white;
     }
 
-    .date_text {
+    #header.date_text {
+        font-size: 14pt;
         color: white;
     }
 }

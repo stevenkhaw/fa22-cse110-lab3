@@ -10,13 +10,6 @@
     <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto+Condensed">
   </head>
 
-  <style>
-    * {
-        font-family: "Roboto Condensed", "Roboto Slab", "Roboto", sans-serif;
-/*       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-    } 
-  </style>
-
   <body>
 
     <header>
@@ -128,7 +121,7 @@
 
       <div class="minor_title"><b>Add Meeting Notes</b><br></div>
       <textarea rows="5" cols="33"></textarea><br>
-      <span class="date_text">Date:</span>
+      <span id="header" class="date_text">Date:</span>
       <input type="date"><br><br>
 
       <hr>
@@ -142,13 +135,13 @@
 
           <label>What is my dog's name?</label><br>
           <select id="name-select">
-              <option value="">--Please choose a name--</option>
-              <option value="mikey">Mikey</option>
-              <option value="benji">Benji</option>
-              <option value="lucy">Lucy</option>
-              <option value="doggy">Doggy</option>
-              <option value="mocha">Mocha</option>
-              <option value="ned">Ned</option>
+            <option value="">--Please choose a name--</option>
+            <option value="mikey">Mikey</option>
+            <option value="benji">Benji</option>
+            <option value="lucy">Lucy</option>
+            <option value="doggy">Doggy</option>
+            <option value="mocha">Mocha</option>
+            <option value="ned">Ned</option>
           </select><br><br>
 
           <label>
@@ -205,9 +198,7 @@
           Follow me on Twitch</a><br>
         <a href="https://www.linkedin.com/in/stevenkhaw/">
           Add me on LinkedIn</a><br><br>
-
         <hr>
-
         <a href="hidden/hidden_index.html" target="blank">
           Hidden Site
         </a>
